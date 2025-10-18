@@ -2,13 +2,13 @@ namespace HawaiiGallery
 {
 	public partial class Form1 : Form
 	{
-		private Dictionary<string, string> _imageInfo = new (){
+		private Dictionary<string, string> _imageInfo = new(){
 			{ "TITLE", "DESCRIPTION" },
-            { "TITLE", "DESCRIPTION" },
-            { "TITLE", "DESCRIPTION" },
-            { "TITLE", "DESCRIPTION" },
-            { "TITLE", "DESCRIPTION" },
-        };
+			{ "TITLE", "DESCRIPTION" },
+			{ "TITLE", "DESCRIPTION" },
+			{ "TITLE", "DESCRIPTION" },
+			{ "TITLE", "DESCRIPTION" },
+		};
 
 
 
@@ -33,6 +33,14 @@ namespace HawaiiGallery
 				MessageBox.Show("Error loading image: " + ex.Message);
 			}
 		}
+
+		private void setImageByIndex(int index)
+		{
+			if (index > 0 && index < imageList1.Count)
+			{
+
+			}
+
 
 	}
 }

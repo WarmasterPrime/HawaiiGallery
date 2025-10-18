@@ -28,12 +28,15 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			panel1 = new Panel();
 			descriptionLabel = new Label();
 			imageBox = new PictureBox();
 			titleLabel = new Label();
 			nextButton = new Button();
 			previousButton = new Button();
+			imageList1 = new ImageList(components);
 			panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)imageBox).BeginInit();
 			SuspendLayout();
@@ -94,6 +97,22 @@
 			previousButton.Text = "Previous";
 			previousButton.UseVisualStyleBackColor = true;
 			// 
+			// imageList1
+			// 
+			imageList1.ColorDepth = ColorDepth.Depth32Bit;
+			imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+			imageList1.TransparentColor = Color.Transparent;
+			imageList1.Images.SetKeyName(0, "11243605054_0b4b7ec91c_k.jpg");
+			imageList1.Images.SetKeyName(1, "Annexation_of_Hawaii_1898-1210x423-1.jpg");
+			imageList1.Images.SetKeyName(2, "download (1).jpeg");
+			imageList1.Images.SetKeyName(3, "download.jpeg");
+			imageList1.Images.SetKeyName(4, "images (1).jpeg");
+			imageList1.Images.SetKeyName(5, "images (2).jpeg");
+			imageList1.Images.SetKeyName(6, "images (3).jpeg");
+			imageList1.Images.SetKeyName(7, "images (4).jpeg");
+			imageList1.Images.SetKeyName(8, "images (5).jpeg");
+			imageList1.Images.SetKeyName(9, "images.jpeg");
+			// 
 			// Form1
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
@@ -117,5 +136,6 @@
 		private Label titleLabel;
 		private Button nextButton;
 		private Button previousButton;
+		private ImageList imageList1;
 	}
 }
