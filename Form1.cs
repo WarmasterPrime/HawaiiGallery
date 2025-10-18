@@ -1,11 +1,11 @@
-namespace HawaiiGallery
+﻿namespace HawaiiGallery
 {
 	public partial class Form1 : Form
 	{
 		private Dictionary<string, string> _imageInfo = new(){
-			{ "TITLE", "DESCRIPTION" },
-			{ "TITLE", "DESCRIPTION" },
-			{ "TITLE", "DESCRIPTION" },
+			{ "Native Hawaiians", "They are surfing in the ocean with an island in the background." },
+			{ "Queen Liliʻuokalani", "Queen of Hawaii, she was overthrown illegally." },
+			{ "Hawaiian Village", "A Hawaiian village with natives paddling in the foreground." },
 			{ "TITLE", "DESCRIPTION" },
 			{ "TITLE", "DESCRIPTION" },
 		};
