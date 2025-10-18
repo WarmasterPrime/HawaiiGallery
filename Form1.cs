@@ -36,10 +36,11 @@ namespace HawaiiGallery
 
 		private void setImageByIndex(int index)
 		{
-			if (index > 0 && index < imageList1.Count)
+			if (index > 0 && index < imageList1.Images.Count)
 			{
 
 			}
+		}
 
 
 	}
