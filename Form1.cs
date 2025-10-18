@@ -2,6 +2,16 @@ namespace HawaiiGallery
 {
 	public partial class Form1 : Form
 	{
+		private Dictionary<string, string> _imageInfo = new (){
+			{ "TITLE", "DESCRIPTION" },
+            { "TITLE", "DESCRIPTION" },
+            { "TITLE", "DESCRIPTION" },
+            { "TITLE", "DESCRIPTION" },
+            { "TITLE", "DESCRIPTION" },
+        };
+
+
+
 		public Form1()
 		{
 			InitializeComponent();
