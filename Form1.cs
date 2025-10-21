@@ -1,4 +1,5 @@
-﻿using HawaiiGallery.src.Extensions.Images;
+﻿using HawaiiGallery.src.Extensions.Controls;
+using HawaiiGallery.src.Extensions.Images;
 
 namespace HawaiiGallery
 {
@@ -25,7 +26,7 @@ namespace HawaiiGallery
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-
+			imageBox.CenterH();
 		}
 
 		private void SetImage(string imagePath)
@@ -82,6 +83,8 @@ namespace HawaiiGallery
 			var sel = _imageInfo.ElementAt(index);
 			titleLabel.Text = sel.Key;
 			descriptionLabel.Text = sel.Value;
+			titleLabel.CenterH();
+			descriptionLabel.CenterH();
 			SetImageByIndex(index);
 		}
 

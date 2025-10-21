@@ -13,7 +13,7 @@
 			else
 			{
 				Control parent = control.Parent;
-				control.Location = new Point((parent.Width / 2) - control.Width, (parent.Height / 2) - control.Height);
+				control.Location = new Point((parent.Width / 2) - (control.Width/2), control.Location.Y);
 			}
 		}
 
