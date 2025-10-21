@@ -105,15 +105,15 @@
 			imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
 			imageList1.TransparentColor = Color.Transparent;
 			imageList1.Images.SetKeyName(0, "11243605054_0b4b7ec91c_k.jpg");
-			imageList1.Images.SetKeyName(1, "Annexation_of_Hawaii_1898-1210x423-1.jpg");
-			imageList1.Images.SetKeyName(2, "download (1).jpeg");
-			imageList1.Images.SetKeyName(3, "download.jpeg");
-			imageList1.Images.SetKeyName(4, "images (1).jpeg");
-			imageList1.Images.SetKeyName(5, "images (2).jpeg");
-			imageList1.Images.SetKeyName(6, "images (3).jpeg");
-			imageList1.Images.SetKeyName(7, "images (4).jpeg");
-			imageList1.Images.SetKeyName(8, "images (5).jpeg");
-			imageList1.Images.SetKeyName(9, "images.jpeg");
+			imageList1.Images.SetKeyName(1, "download (1).jpeg");
+			imageList1.Images.SetKeyName(2, "images (5).jpeg");
+			imageList1.Images.SetKeyName(3, "images (4).jpeg");
+			imageList1.Images.SetKeyName(4, "download.jpeg");
+			imageList1.Images.SetKeyName(5, "images (3).jpeg");
+			imageList1.Images.SetKeyName(6, "images (2).jpeg");
+			imageList1.Images.SetKeyName(7, "images (1).jpeg");
+			imageList1.Images.SetKeyName(8, "images.jpeg");
+			imageList1.Images.SetKeyName(9, "Annexation_of_Hawaii_1898-1210x423-1.jpg");
 			imageList1.Images.SetKeyName(10, "elementor-placeholder-image.png");
 			// 
 			// Form1
