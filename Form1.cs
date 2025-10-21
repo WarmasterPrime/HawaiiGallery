@@ -85,5 +85,10 @@ namespace HawaiiGallery
 			SetImageByIndex(index);
 		}
 
+		public new void CenterToScreen()
+		{
+			base.CenterToScreen();
+		}
+
 	}
 }
