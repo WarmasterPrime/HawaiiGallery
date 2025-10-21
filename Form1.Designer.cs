@@ -87,6 +87,7 @@
 			nextButton.TabIndex = 1;
 			nextButton.Text = "Next";
 			nextButton.UseVisualStyleBackColor = true;
+			nextButton.Click += nextButton_Click;
 			// 
 			// previousButton
 			// 
@@ -96,6 +97,7 @@
 			previousButton.TabIndex = 0;
 			previousButton.Text = "Previous";
 			previousButton.UseVisualStyleBackColor = true;
+			previousButton.Click += previousButton_Click;
 			// 
 			// imageList1
 			// 
@@ -112,6 +114,7 @@
 			imageList1.Images.SetKeyName(7, "images (4).jpeg");
 			imageList1.Images.SetKeyName(8, "images (5).jpeg");
 			imageList1.Images.SetKeyName(9, "images.jpeg");
+			imageList1.Images.SetKeyName(10, "elementor-placeholder-image.png");
 			// 
 			// Form1
 			// 
@@ -120,7 +123,7 @@
 			ClientSize = new Size(800, 450);
 			Controls.Add(panel1);
 			Name = "Form1";
-			Text = "Form1";
+			Text = "Hawaii Gallery";
 			Load += Form1_Load;
 			panel1.ResumeLayout(false);
 			panel1.PerformLayout();
