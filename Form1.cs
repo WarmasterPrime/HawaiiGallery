@@ -50,7 +50,10 @@ namespace HawaiiGallery
 			if (index > 0 && index < imageList1.Images.Count)
 				imageBox.Image = imageList1.Images[index]!.ResizeImage(imageBox.Width, imageBox.Height);
 		}
-
+		/// <summary>
+		/// Sets the image from the list with the given name.
+		/// </summary>
+		/// <param name="name"></param>
 		private void SetImageByName(string name)
 		{
 			if (imageList1.Images.ContainsKey(name))
@@ -70,7 +73,11 @@ namespace HawaiiGallery
 				_galleryPosition = _imageInfo.Count - 1;
 			UpdateInfo(_galleryPosition);
 		}
-
+		/// <summary>
+		/// Triggers when the next button is clicked on.
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void nextButton_Click(object sender, EventArgs e)
 		{
 			_galleryPosition++;
@@ -78,7 +85,10 @@ namespace HawaiiGallery
 				_galleryPosition = 0;
 			UpdateInfo(_galleryPosition);
 		}
-
+		/// <summary>
+		/// Updates the information to be displayed to the user.
+		/// </summary>
+		/// <param name="index"></param>
 		private void UpdateInfo(int index)
 		{
 			var sel = _imageInfo.ElementAt(index);
@@ -88,7 +98,9 @@ namespace HawaiiGallery
 			descriptionLabel.CenterH();
 			SetImageByIndex(index);
 		}
-
+		/// <summary>
+		/// Publicly accessible.
+		/// </summary>
 		public new void CenterToScreen()
 		{
 			base.CenterToScreen();
