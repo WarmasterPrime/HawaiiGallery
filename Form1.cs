@@ -101,10 +101,7 @@ namespace HawaiiGallery
 		/// <summary>
 		/// Publicly accessible.
 		/// </summary>
-		public new void CenterToScreen()
-		{
-			base.CenterToScreen();
-		}
+		public new void CenterToScreen() => base.CenterToScreen();
 
 	}
 }
