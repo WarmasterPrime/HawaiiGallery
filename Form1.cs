@@ -29,7 +29,6 @@ namespace HawaiiGallery
 			InitializeComponent();
 			CenterToScreen();
 			UpdateInfo(0);
-			//SetImageByName("elementor-placeholder-image.png");
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
