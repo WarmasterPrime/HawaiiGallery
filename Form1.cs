@@ -12,10 +12,14 @@ namespace HawaiiGallery
 			{ "Native Hawaiians", "Native Hawaiians are the indigenous Polynesian people of the Hawaiian islands who invented the Olelo Hawaii." },
 			{ "Queen Liliʻuokalani", "Queen of Hawaii reigning from January 29, 1891, until the overthrow of the Hawaiian Kingdom on January 17, 1893." },
 			{ "Ahupua'a", "An ahupuaʻa is a traditional Hawaiian land division system that runs from the mountain to the sea, translating to a pie slice." },
-			{ "King Kamehameha", "DESCRIPTION" },
-			{ "Canoe", "DESCRIPTION" },
-			{ "King Kamehameha", "DESCRIPTION" },
-
+			{ "Prince Kuhio" , "Jonah Kūhiō Kalanianaʻole was a prince of the Kingdom of Hawaiʻi until it was overthrown by a coalition of American and European businessmen in 1893. He went on to become the delegate of the Territory of Hawaii to the United States Congress, and as such is the only royal-born member of Congress." },
+			{ "King Kamehameha", "King Kamehameha, also known as Kamehameha the Great, was the conqueror and first ruler of the Kingdom of Hawaii" },
+			{ "Canoe", "Hawaiian Outrigger Canoeing, it's History & Revival To Date Hawaiian canoes, or wa'a, are historically significant outrigger canoes used for fishing, travel, and warfare, and are now a symbol of cultural pride used in recreational and competitive paddling. They are defined by a long, narrow hull (wa'a) and a stabilizing float (ama) connected by spars (iako). The design is functional, with modern versions built from lightweight materials, and the cultural significance continues with modern-day canoe clubs and sports like canoe surfing. " },
+			{ "King Kalakaua", "King Kalākaua, was the last king and penultimate monarch of the Kingdom of Hawaiʻi, reigning from February 12, 1874, until his death in 1891. Succeeding Lunalilo, he was elected to the vacant throne of Hawaiʻi against Queen Emma." },
+			{ "TITLE", "DESCRIPTION" },
+			{ "TITLE", "DESCRIPTION" },
+			{ "TITLE", "DESCRIPTION" },
+			{ "TITLE", "DESCRIPTION" },
 		};
 
 
