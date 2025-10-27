@@ -16,10 +16,10 @@ namespace HawaiiGallery
 			{ "King Kamehameha", "King Kamehameha, also known as Kamehameha the Great, was the conqueror and first ruler of the Kingdom of Hawaii" },
 			{ "Canoe", "Hawaiian Outrigger Canoeing, it's History & Revival To Date Hawaiian canoes, or wa'a, are historically significant outrigger canoes used for fishing, travel, and warfare, and are now a symbol of cultural pride used in recreational and competitive paddling. They are defined by a long, narrow hull (wa'a) and a stabilizing float (ama) connected by spars (iako). The design is functional, with modern versions built from lightweight materials, and the cultural significance continues with modern-day canoe clubs and sports like canoe surfing. " },
 			{ "King Kalakaua", "King Kalākaua, was the last king and penultimate monarch of the Kingdom of Hawaiʻi, reigning from February 12, 1874, until his death in 1891. Succeeding Lunalilo, he was elected to the vacant throne of Hawaiʻi against Queen Emma." },
-			{ "TITLE", "DESCRIPTION" },
-			{ "TITLE", "DESCRIPTION" },
-			{ "TITLE", "DESCRIPTION" },
-			{ "TITLE", "DESCRIPTION" },
+			{ "TITLE8", "DESCRIPTION" },
+			{ "TITLE9", "DESCRIPTION" },
+			{ "TITLE10", "DESCRIPTION" },
+			{ "TITLE11", "DESCRIPTION" },
 		};
 
 
@@ -28,7 +28,8 @@ namespace HawaiiGallery
 		{
 			InitializeComponent();
 			CenterToScreen();
-			SetImageByName("elementor-placeholder-image.png");
+			UpdateInfo(0);
+			//SetImageByName("elementor-placeholder-image.png");
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
@@ -53,7 +54,7 @@ namespace HawaiiGallery
 
 		private void SetImageByIndex(int index)
 		{
-			if (index > 0 && index < imageList1.Images.Count)
+			if (index >= 0 && index < imageList1.Images.Count)
 				imageBox.Image = imageList1.Images[index]!.ResizeImage(imageBox.Width, imageBox.Height);
 		}
 		/// <summary>
@@ -98,7 +99,7 @@ namespace HawaiiGallery
 		private void UpdateInfo(int index)
 		{
 			var sel = _imageInfo.ElementAt(index);
-			titleLabel.Text = sel.Key;
+			titleLabel.Text = sel.Key + " - " + index.ToString();
 			descriptionLabel.Text = sel.Value;
 			titleLabel.CenterH();
 			descriptionLabel.CenterH();

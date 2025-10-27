@@ -122,6 +122,7 @@
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(800, 450);
 			Controls.Add(panel1);
+			Icon = (Icon)resources.GetObject("$this.Icon");
 			Name = "Form1";
 			Text = "Hawaii Gallery";
 			Load += Form1_Load;
