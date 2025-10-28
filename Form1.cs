@@ -16,10 +16,10 @@ namespace HawaiiGallery
 			{ "King Kamehameha", "King Kamehameha, also known as Kamehameha the Great, was the conqueror and first ruler of the Kingdom of Hawaii" },
 			{ "Canoe", "Hawaiian Outrigger Canoeing, it's History & Revival To Date Hawaiian canoes, or wa'a, are historically significant outrigger canoes used for fishing, travel, and warfare, and are now a symbol of cultural pride used in recreational and competitive paddling. They are defined by a long, narrow hull (wa'a) and a stabilizing float (ama) connected by spars (iako). The design is functional, with modern versions built from lightweight materials, and the cultural significance continues with modern-day canoe clubs and sports like canoe surfing. " },
 			{ "King Kalakaua", "King Kalākaua, was the last king and penultimate monarch of the Kingdom of Hawaiʻi, reigning from February 12, 1874, until his death in 1891. Succeeding Lunalilo, he was elected to the vacant throne of Hawaiʻi against Queen Emma." },
-			{ "TITLE8", "DESCRIPTION" },
-			{ "TITLE9", "DESCRIPTION" },
-			{ "TITLE10", "DESCRIPTION" },
-			{ "TITLE11", "DESCRIPTION" },
+			{ "Captain James Cook", "Captain James Cook was the first European to reach Hawaii, arriving there in 1778 during his third voyage, and he named the islands the \"Sandwich Islands\"" },
+			{ "Ancient Hawaiian Tribes", "Ancient Hawaiian \"tribes\" were organized into a stratified caste system led by the ali'i (chiefly nobility) and based on the kapu system of laws and regulations." },
+			{ "Annexation of Hawaii", "The United States annexed Hawaii in 1898 after American settlers overthrew the Hawaiian Monarchy, making the islands a U.S. territory." },
+			{ "Ulu Maika", "Ulu Maika is a traditional Hawaiian game in  which players roll a stone disk between two stakes to test accuracy, strength, and skill." },
 		};
 
 
