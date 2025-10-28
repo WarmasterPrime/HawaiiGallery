@@ -37,8 +37,12 @@
 			nextButton = new Button();
 			previousButton = new Button();
 			imageList1 = new ImageList(components);
+			menuStrip1 = new MenuStrip();
+			fileToolStripMenuItem = new ToolStripMenuItem();
+			aboutToolStripMenuItem = new ToolStripMenuItem();
 			panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)imageBox).BeginInit();
+			menuStrip1.SuspendLayout();
 			SuspendLayout();
 			// 
 			// panel1
@@ -48,9 +52,9 @@
 			panel1.Controls.Add(titleLabel);
 			panel1.Controls.Add(nextButton);
 			panel1.Controls.Add(previousButton);
-			panel1.Location = new Point(12, 12);
+			panel1.Location = new Point(12, 27);
 			panel1.Name = "panel1";
-			panel1.Size = new Size(776, 426);
+			panel1.Size = new Size(776, 411);
 			panel1.TabIndex = 1;
 			// 
 			// descriptionLabel
@@ -116,20 +120,49 @@
 			imageList1.Images.SetKeyName(9, "Annexation_of_Hawaii_1898-1210x423-1.jpg");
 			imageList1.Images.SetKeyName(10, "AR4I9096_stone_540x304jpg.jpg");
 			// 
+			// menuStrip1
+			// 
+			menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
+			menuStrip1.Location = new Point(0, 0);
+			menuStrip1.Name = "menuStrip1";
+			menuStrip1.Size = new Size(800, 24);
+			menuStrip1.TabIndex = 2;
+			menuStrip1.Text = "menuStrip1";
+			// 
+			// fileToolStripMenuItem
+			// 
+			fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aboutToolStripMenuItem });
+			fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+			fileToolStripMenuItem.Size = new Size(52, 20);
+			fileToolStripMenuItem.Text = "About";
+			fileToolStripMenuItem.Click += fileToolStripMenuItem_Click;
+			// 
+			// aboutToolStripMenuItem
+			// 
+			aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+			aboutToolStripMenuItem.Size = new Size(180, 22);
+			aboutToolStripMenuItem.Text = "Credits";
+			aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
+			// 
 			// Form1
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(800, 450);
 			Controls.Add(panel1);
+			Controls.Add(menuStrip1);
 			Icon = (Icon)resources.GetObject("$this.Icon");
+			MainMenuStrip = menuStrip1;
 			Name = "Form1";
 			Text = "Hawaii Gallery";
 			Load += Form1_Load;
 			panel1.ResumeLayout(false);
 			panel1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)imageBox).EndInit();
+			menuStrip1.ResumeLayout(false);
+			menuStrip1.PerformLayout();
 			ResumeLayout(false);
+			PerformLayout();
 		}
 
 		#endregion
@@ -141,5 +174,8 @@
 		private Button nextButton;
 		private Button previousButton;
 		private ImageList imageList1;
+		private MenuStrip menuStrip1;
+		private ToolStripMenuItem fileToolStripMenuItem;
+		private ToolStripMenuItem aboutToolStripMenuItem;
 	}
 }
