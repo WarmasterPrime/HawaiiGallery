@@ -116,7 +116,7 @@ namespace HawaiiGallery
 
 		private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("Editors", "Student participantsw of the 2025 MEDB STEMWorks Kalama Winter semester coding-101 course.");
+			MessageBox.Show("Editors:\n\nStudent participantsw of the 2025 MEDB STEMWorks Kalama Winter semester coding-101 course.");
 		}
 	}
 }
