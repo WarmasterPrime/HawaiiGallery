@@ -114,7 +114,7 @@
 			imageList1.Images.SetKeyName(7, "Captain James Cook.jpg");
 			imageList1.Images.SetKeyName(8, "images.jpeg");
 			imageList1.Images.SetKeyName(9, "Annexation_of_Hawaii_1898-1210x423-1.jpg");
-			imageList1.Images.SetKeyName(10, "elementor-placeholder-image.png");
+			imageList1.Images.SetKeyName(10, "AR4I9096_stone_540x304jpg.jpg");
 			// 
 			// Form1
 			// 
